@@ -1,0 +1,47 @@
+button{
+    display: inline;
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-weight: bolder;
+}
+
+#botones{
+    grid-area: "botones";
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+}
+#escritura{
+    grid-area: escritura;
+    display: grid;
+    float: left;
+
+}
+
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "botones"
+    "escritura";
+
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+p{
+    margin: 0;
+    color: grey;
+    font-style: italic;
+}
+
+#Button1{
+    background-color:red ;
+}
+#Button2{
+    background-color:blue ;
+}
+#Button3{
+    background-color:green ;
+}
